@@ -6,7 +6,7 @@ using Fusion;
 public class MovimentController : NetworkBehaviour
 {
     public CharacterController characterController;
-    public float velocidade = 5f;
+    public float velocidade = 50f;
     public Animator animator;
 
     public void Awake()
